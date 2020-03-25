@@ -10,7 +10,7 @@ body {
 
 
 
-.time {
+.main {
   width: 50%;
   height: 100%;
   margin: auto;
@@ -19,6 +19,10 @@ body {
   justify-content: center;
 }
 
-.time h1 {
+#time {
+  font-size: 5rem;
+}
 
+#date{
+  font-size: 2rem;
 }
