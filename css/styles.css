@@ -6,9 +6,8 @@
 body {
   height: 100vh;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
-
-
 
 .main {
   width: 50%;
