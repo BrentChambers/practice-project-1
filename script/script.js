@@ -1,5 +1,16 @@
 /*jshint esversion: 6 */
 (function(){
+  "use strict";
+
+  //Menu buton
+  let menuButton = document.querySelector('.menu-button');
+  let menuScreen = document.querySelector('.menu');
+  menuButton.addEventListener('click', function(){
+    menuScreen.classList.toggle('displayFullScreen');
+  });
+
+
+
 
   setInterval(function(){
     let timeDisplay = document.querySelector('#time');
