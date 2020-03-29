@@ -7,7 +7,7 @@ body {
   height: 100vh;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  color: #555;
+  color: #fff;
 }
 
 /* Menu screen */
@@ -43,7 +43,7 @@ body {
 .menu-button div {
   width: 35px;
   height: 4px;
-  background-color: #555;
+  background-color: #fff;
   margin: 7px 0;
   border-radius: 5px;
 }
