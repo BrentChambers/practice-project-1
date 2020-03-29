@@ -11,11 +11,11 @@ body {
 }
 
 /* Menu screen */
-.menu {
+/* .menu {
   position: fixed;
   background: #fff;
   display: none;
-}
+} */
 
 .displayFullScreen {
   height: 100vh;
@@ -25,13 +25,13 @@ body {
 
 
 /* Menu button */
-.menu-button {
+/* .menu-button {
   position: absolute;
   top: 4vh;
   left: 4vh;
-}
+} */
 
-.menu-button:hover {
+/* .menu-button:hover {
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ body {
   background-color: #fff;
   margin: 7px 0;
   border-radius: 5px;
-}
+} */
 
 
 /* Time and date */
@@ -65,4 +65,44 @@ body {
 
 #date{
   font-size: 2rem;
+}
+
+/* Fade in once page loads */
+.fade-in {
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2.5s; /* Firefox < 16 */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+     -o-animation: fadein 2.5s; /* Opera < 12.1 */
+        animation: fadein 2.5s;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

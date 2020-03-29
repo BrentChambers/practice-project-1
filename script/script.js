@@ -3,11 +3,11 @@
   "use strict";
 
   //Generate random number******************************************************
-  //min is inclusive, max is not. Reusable.
+  //Reusable
   function randomNumber(min, max){
     min = Math.ceil(min);
     max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
   //****************************************************************************
 
@@ -19,6 +19,7 @@
     for(let i = 0; i < 3; i++){
       arr.push(randomNumber(141, 228));
     }
+
     return arr;
   }
 
@@ -31,11 +32,11 @@
 
 
   //Menu button
-  let menuButton = document.querySelector('.menu-button');
-  let menuScreen = document.querySelector('.menu');
-  menuButton.addEventListener('click', function(){
-    menuScreen.classList.toggle('displayFullScreen');
-  });
+  // let menuButton = document.querySelector('.menu-button');
+  // let menuScreen = document.querySelector('.menu');
+  // menuButton.addEventListener('click', function(){
+  //   menuScreen.classList.toggle('displayFullScreen');
+  // });
 
   let monthArr = [
     'January','February','March','April',
